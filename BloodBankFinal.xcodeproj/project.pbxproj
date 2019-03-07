@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1211BC0422315441003DAA31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1211BC0322315441003DAA31 /* AppDelegate.swift */; };
+		1211BC0622315441003DAA31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1211BC0522315441003DAA31 /* ViewController.swift */; };
+		1211BC0922315441003DAA31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1211BC0722315441003DAA31 /* Main.storyboard */; };
+		1211BC0B22315443003DAA31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1211BC0A22315443003DAA31 /* Assets.xcassets */; };
+		1211BC0E22315443003DAA31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1211BC0C22315443003DAA31 /* LaunchScreen.storyboard */; };
+		1211BC1922315443003DAA31 /* BloodBankFinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1211BC1822315443003DAA31 /* BloodBankFinalTests.swift */; };
+		1211BC2422315443003DAA31 /* BloodBankFinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1211BC2322315443003DAA31 /* BloodBankFinalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1211BC1522315443003DAA31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1211BBF822315441003DAA31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1211BBFF22315441003DAA31;
+			remoteInfo = BloodBankFinal;
+		};
+		1211BC2022315443003DAA31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1211BBF822315441003DAA31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1211BBFF22315441003DAA31;
+			remoteInfo = BloodBankFinal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1211BC0022315441003DAA31 /* BloodBankFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BloodBankFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1211BC0322315441003DAA31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1211BC0522315441003DAA31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1211BC0822315441003DAA31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1211BC0A22315443003DAA31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1211BC0D22315443003DAA31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1211BC0F22315443003DAA31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1211BC1422315443003DAA31 /* BloodBankFinalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BloodBankFinalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1211BC1822315443003DAA31 /* BloodBankFinalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodBankFinalTests.swift; sourceTree = "<group>"; };
+		1211BC1A22315443003DAA31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1211BC1F22315443003DAA31 /* BloodBankFinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BloodBankFinalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1211BC2322315443003DAA31 /* BloodBankFinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodBankFinalUITests.swift; sourceTree = "<group>"; };
+		1211BC2522315443003DAA31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1211BBFD22315441003DAA31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1211BC1122315443003DAA31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1211BC1C22315443003DAA31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1211BBF722315441003DAA31 = {
+			isa = PBXGroup;
+			children = (
+				1211BC0222315441003DAA31 /* BloodBankFinal */,
+				1211BC1722315443003DAA31 /* BloodBankFinalTests */,
+				1211BC2222315443003DAA31 /* BloodBankFinalUITests */,
+				1211BC0122315441003DAA31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1211BC0122315441003DAA31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1211BC0022315441003DAA31 /* BloodBankFinal.app */,
+				1211BC1422315443003DAA31 /* BloodBankFinalTests.xctest */,
+				1211BC1F22315443003DAA31 /* BloodBankFinalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1211BC0222315441003DAA31 /* BloodBankFinal */ = {
+			isa = PBXGroup;
+			children = (
+				1211BC0322315441003DAA31 /* AppDelegate.swift */,
+				1211BC0522315441003DAA31 /* ViewController.swift */,
+				1211BC0722315441003DAA31 /* Main.storyboard */,
+				1211BC0A22315443003DAA31 /* Assets.xcassets */,
+				1211BC0C22315443003DAA31 /* LaunchScreen.storyboard */,
+				1211BC0F22315443003DAA31 /* Info.plist */,
+			);
+			path = BloodBankFinal;
+			sourceTree = "<group>";
+		};
+		1211BC1722315443003DAA31 /* BloodBankFinalTests */ = {
+			isa = PBXGroup;
+			children = (
+				1211BC1822315443003DAA31 /* BloodBankFinalTests.swift */,
+				1211BC1A22315443003DAA31 /* Info.plist */,
+			);
+			path = BloodBankFinalTests;
+			sourceTree = "<group>";
+		};
+		1211BC2222315443003DAA31 /* BloodBankFinalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1211BC2322315443003DAA31 /* BloodBankFinalUITests.swift */,
+				1211BC2522315443003DAA31 /* Info.plist */,
+			);
+			path = BloodBankFinalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1211BBFF22315441003DAA31 /* BloodBankFinal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1211BC2822315443003DAA31 /* Build configuration list for PBXNativeTarget "BloodBankFinal" */;
+			buildPhases = (
+				1211BBFC22315441003DAA31 /* Sources */,
+				1211BBFD22315441003DAA31 /* Frameworks */,
+				1211BBFE22315441003DAA31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BloodBankFinal;
+			productName = BloodBankFinal;
+			productReference = 1211BC0022315441003DAA31 /* BloodBankFinal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1211BC1322315443003DAA31 /* BloodBankFinalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1211BC2B22315443003DAA31 /* Build configuration list for PBXNativeTarget "BloodBankFinalTests" */;
+			buildPhases = (
+				1211BC1022315443003DAA31 /* Sources */,
+				1211BC1122315443003DAA31 /* Frameworks */,
+				1211BC1222315443003DAA31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1211BC1622315443003DAA31 /* PBXTargetDependency */,
+			);
+			name = BloodBankFinalTests;
+			productName = BloodBankFinalTests;
+			productReference = 1211BC1422315443003DAA31 /* BloodBankFinalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1211BC1E22315443003DAA31 /* BloodBankFinalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1211BC2E22315443003DAA31 /* Build configuration list for PBXNativeTarget "BloodBankFinalUITests" */;
+			buildPhases = (
+				1211BC1B22315443003DAA31 /* Sources */,
+				1211BC1C22315443003DAA31 /* Frameworks */,
+				1211BC1D22315443003DAA31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1211BC2122315443003DAA31 /* PBXTargetDependency */,
+			);
+			name = BloodBankFinalUITests;
+			productName = BloodBankFinalUITests;
+			productReference = 1211BC1F22315443003DAA31 /* BloodBankFinalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1211BBF822315441003DAA31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Kashif Rizwan";
+				TargetAttributes = {
+					1211BBFF22315441003DAA31 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					1211BC1322315443003DAA31 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 1211BBFF22315441003DAA31;
+					};
+					1211BC1E22315443003DAA31 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 1211BBFF22315441003DAA31;
+					};
+				};
+			};
+			buildConfigurationList = 1211BBFB22315441003DAA31 /* Build configuration list for PBXProject "BloodBankFinal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1211BBF722315441003DAA31;
+			productRefGroup = 1211BC0122315441003DAA31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1211BBFF22315441003DAA31 /* BloodBankFinal */,
+				1211BC1322315443003DAA31 /* BloodBankFinalTests */,
+				1211BC1E22315443003DAA31 /* BloodBankFinalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1211BBFE22315441003DAA31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1211BC0E22315443003DAA31 /* LaunchScreen.storyboard in Resources */,
+				1211BC0B22315443003DAA31 /* Assets.xcassets in Resources */,
+				1211BC0922315441003DAA31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1211BC1222315443003DAA31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1211BC1D22315443003DAA31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1211BBFC22315441003DAA31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1211BC0622315441003DAA31 /* ViewController.swift in Sources */,
+				1211BC0422315441003DAA31 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1211BC1022315443003DAA31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1211BC1922315443003DAA31 /* BloodBankFinalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1211BC1B22315443003DAA31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1211BC2422315443003DAA31 /* BloodBankFinalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1211BC1622315443003DAA31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1211BBFF22315441003DAA31 /* BloodBankFinal */;
+			targetProxy = 1211BC1522315443003DAA31 /* PBXContainerItemProxy */;
+		};
+		1211BC2122315443003DAA31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1211BBFF22315441003DAA31 /* BloodBankFinal */;
+			targetProxy = 1211BC2022315443003DAA31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1211BC0722315441003DAA31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1211BC0822315441003DAA31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1211BC0C22315443003DAA31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1211BC0D22315443003DAA31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1211BC2622315443003DAA31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1211BC2722315443003DAA31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1211BC2922315443003DAA31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BloodBankFinal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.counterApp.BloodBankFinal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1211BC2A22315443003DAA31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BloodBankFinal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.counterApp.BloodBankFinal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1211BC2C22315443003DAA31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BloodBankFinalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.counterApp.BloodBankFinalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BloodBankFinal.app/BloodBankFinal";
+			};
+			name = Debug;
+		};
+		1211BC2D22315443003DAA31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BloodBankFinalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.counterApp.BloodBankFinalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BloodBankFinal.app/BloodBankFinal";
+			};
+			name = Release;
+		};
+		1211BC2F22315443003DAA31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BloodBankFinalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.counterApp.BloodBankFinalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BloodBankFinal;
+			};
+			name = Debug;
+		};
+		1211BC3022315443003DAA31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BloodBankFinalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.counterApp.BloodBankFinalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BloodBankFinal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1211BBFB22315441003DAA31 /* Build configuration list for PBXProject "BloodBankFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1211BC2622315443003DAA31 /* Debug */,
+				1211BC2722315443003DAA31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1211BC2822315443003DAA31 /* Build configuration list for PBXNativeTarget "BloodBankFinal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1211BC2922315443003DAA31 /* Debug */,
+				1211BC2A22315443003DAA31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1211BC2B22315443003DAA31 /* Build configuration list for PBXNativeTarget "BloodBankFinalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1211BC2C22315443003DAA31 /* Debug */,
+				1211BC2D22315443003DAA31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1211BC2E22315443003DAA31 /* Build configuration list for PBXNativeTarget "BloodBankFinalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1211BC2F22315443003DAA31 /* Debug */,
+				1211BC3022315443003DAA31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1211BBF822315441003DAA31 /* Project object */;
+}
