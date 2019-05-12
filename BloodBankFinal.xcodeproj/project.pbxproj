@@ -14,6 +14,21 @@
 		1211BC0E22315443003DAA31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1211BC0C22315443003DAA31 /* LaunchScreen.storyboard */; };
 		1211BC1922315443003DAA31 /* BloodBankFinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1211BC1822315443003DAA31 /* BloodBankFinalTests.swift */; };
 		1211BC2422315443003DAA31 /* BloodBankFinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1211BC2322315443003DAA31 /* BloodBankFinalUITests.swift */; };
+		1215CDAD2259377300E0AB44 /* blood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1215CDAC2259377300E0AB44 /* blood.jpg */; };
+		125467F6223165C500E33338 /* sign_inDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125467F5223165C500E33338 /* sign_inDetails.swift */; };
+		125467F82231670000E33338 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 125467F72231670000E33338 /* GoogleService-Info.plist */; };
+		1256F5BB223AE6D50079A792 /* MyAccountTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1256F5BA223AE6D50079A792 /* MyAccountTableViewController.swift */; };
+		12C26B6B224179C60011E733 /* changePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C26B6A224179C60011E733 /* changePasswordViewController.swift */; };
+		12CC64DE2232543000784866 /* ViewControllerSign-up.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CC64DD2232543000784866 /* ViewControllerSign-up.swift */; };
+		12E633BA223275C200382EA9 /* DonorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E633B9223275C200382EA9 /* DonorViewController.swift */; };
+		12E633BC223275E600382EA9 /* DonorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E633BB223275E600382EA9 /* DonorTableViewController.swift */; };
+		12E633C02232765200382EA9 /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E633BF2232765200382EA9 /* user.swift */; };
+		12E633C22232769A00382EA9 /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E633C12232769A00382EA9 /* profileViewController.swift */; };
+		12E633C42232772300382EA9 /* acceptorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E633C32232772300382EA9 /* acceptorViewController.swift */; };
+		12E633C62232774700382EA9 /* acceptorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E633C52232774700382EA9 /* acceptorTableViewController.swift */; };
+		12E633C8223277FA00382EA9 /* StaticLinker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E633C7223277FA00382EA9 /* StaticLinker.swift */; };
+		3351B0A7A59ED2C8D4FF7E5C /* Pods_BloodBankFinalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FB07376391A26D219CB0468 /* Pods_BloodBankFinalTests.framework */; };
+		BE846BA82A2B894BC138D9D6 /* Pods_BloodBankFinal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A930011FFC285AE6BD3EAF8E /* Pods_BloodBankFinal.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +62,26 @@
 		1211BC1F22315443003DAA31 /* BloodBankFinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BloodBankFinalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1211BC2322315443003DAA31 /* BloodBankFinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodBankFinalUITests.swift; sourceTree = "<group>"; };
 		1211BC2522315443003DAA31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1215CDAC2259377300E0AB44 /* blood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blood.jpg; sourceTree = SOURCE_ROOT; };
+		125467F5223165C500E33338 /* sign_inDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = sign_inDetails.swift; path = ../../BloodBank/BloodBank/sign_inDetails.swift; sourceTree = "<group>"; };
+		125467F72231670000E33338 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1256F5BA223AE6D50079A792 /* MyAccountTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountTableViewController.swift; sourceTree = "<group>"; };
+		12C26B6A224179C60011E733 /* changePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = changePasswordViewController.swift; sourceTree = "<group>"; };
+		12CC64DD2232543000784866 /* ViewControllerSign-up.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewControllerSign-up.swift"; sourceTree = "<group>"; };
+		12E633B9223275C200382EA9 /* DonorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonorViewController.swift; sourceTree = "<group>"; };
+		12E633BB223275E600382EA9 /* DonorTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonorTableViewController.swift; sourceTree = "<group>"; };
+		12E633BF2232765200382EA9 /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
+		12E633C12232769A00382EA9 /* profileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
+		12E633C32232772300382EA9 /* acceptorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = acceptorViewController.swift; sourceTree = "<group>"; };
+		12E633C52232774700382EA9 /* acceptorTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = acceptorTableViewController.swift; sourceTree = "<group>"; };
+		12E633C7223277FA00382EA9 /* StaticLinker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticLinker.swift; sourceTree = "<group>"; };
+		3C2CDA2BCB129EF0FE6AD643 /* Pods-BloodBankFinal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BloodBankFinal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BloodBankFinal/Pods-BloodBankFinal.debug.xcconfig"; sourceTree = "<group>"; };
+		62788BDF47AA8A8926530821 /* Pods_BloodBankFinalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BloodBankFinalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		999E532EC22747565ACD8741 /* Pods-BloodBankFinalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BloodBankFinalTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BloodBankFinalTests/Pods-BloodBankFinalTests.release.xcconfig"; sourceTree = "<group>"; };
+		9FB07376391A26D219CB0468 /* Pods_BloodBankFinalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BloodBankFinalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A930011FFC285AE6BD3EAF8E /* Pods_BloodBankFinal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BloodBankFinal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3E23B0E2C69B91AD546C297 /* Pods-BloodBankFinalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BloodBankFinalTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BloodBankFinalTests/Pods-BloodBankFinalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE4662EF5D8D8BD9C281B985 /* Pods-BloodBankFinal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BloodBankFinal.release.xcconfig"; path = "Pods/Target Support Files/Pods-BloodBankFinal/Pods-BloodBankFinal.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE846BA82A2B894BC138D9D6 /* Pods_BloodBankFinal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3351B0A7A59ED2C8D4FF7E5C /* Pods_BloodBankFinalTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +118,8 @@
 				1211BC1722315443003DAA31 /* BloodBankFinalTests */,
 				1211BC2222315443003DAA31 /* BloodBankFinalUITests */,
 				1211BC0122315441003DAA31 /* Products */,
+				29EC2AC9632744FC26D216D4 /* Pods */,
+				F6F382A872F17059B8BF0A1D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +138,22 @@
 			children = (
 				1211BC0322315441003DAA31 /* AppDelegate.swift */,
 				1211BC0522315441003DAA31 /* ViewController.swift */,
+				125467F5223165C500E33338 /* sign_inDetails.swift */,
+				12CC64DD2232543000784866 /* ViewControllerSign-up.swift */,
+				12E633B9223275C200382EA9 /* DonorViewController.swift */,
+				12E633BB223275E600382EA9 /* DonorTableViewController.swift */,
+				12E633C32232772300382EA9 /* acceptorViewController.swift */,
+				12E633C52232774700382EA9 /* acceptorTableViewController.swift */,
+				12E633BF2232765200382EA9 /* user.swift */,
+				12E633C7223277FA00382EA9 /* StaticLinker.swift */,
+				12E633C12232769A00382EA9 /* profileViewController.swift */,
+				1256F5BA223AE6D50079A792 /* MyAccountTableViewController.swift */,
+				12C26B6A224179C60011E733 /* changePasswordViewController.swift */,
+				1215CDAC2259377300E0AB44 /* blood.jpg */,
 				1211BC0722315441003DAA31 /* Main.storyboard */,
 				1211BC0A22315443003DAA31 /* Assets.xcassets */,
 				1211BC0C22315443003DAA31 /* LaunchScreen.storyboard */,
+				125467F72231670000E33338 /* GoogleService-Info.plist */,
 				1211BC0F22315443003DAA31 /* Info.plist */,
 			);
 			path = BloodBankFinal;
@@ -125,6 +177,27 @@
 			path = BloodBankFinalUITests;
 			sourceTree = "<group>";
 		};
+		29EC2AC9632744FC26D216D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C2CDA2BCB129EF0FE6AD643 /* Pods-BloodBankFinal.debug.xcconfig */,
+				EE4662EF5D8D8BD9C281B985 /* Pods-BloodBankFinal.release.xcconfig */,
+				D3E23B0E2C69B91AD546C297 /* Pods-BloodBankFinalTests.debug.xcconfig */,
+				999E532EC22747565ACD8741 /* Pods-BloodBankFinalTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F6F382A872F17059B8BF0A1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A930011FFC285AE6BD3EAF8E /* Pods_BloodBankFinal.framework */,
+				9FB07376391A26D219CB0468 /* Pods_BloodBankFinalTests.framework */,
+				62788BDF47AA8A8926530821 /* Pods_BloodBankFinalUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1211BC2822315443003DAA31 /* Build configuration list for PBXNativeTarget "BloodBankFinal" */;
 			buildPhases = (
+				7DB2CCA9BA520D8BEC3ED1CB /* [CP] Check Pods Manifest.lock */,
 				1211BBFC22315441003DAA31 /* Sources */,
 				1211BBFD22315441003DAA31 /* Frameworks */,
 				1211BBFE22315441003DAA31 /* Resources */,
+				A0FDEBDE33FDCBD763C02F6A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1211BC2B22315443003DAA31 /* Build configuration list for PBXNativeTarget "BloodBankFinalTests" */;
 			buildPhases = (
+				BFBC5165DD5BCC297BCCE3CF /* [CP] Check Pods Manifest.lock */,
 				1211BC1022315443003DAA31 /* Sources */,
 				1211BC1122315443003DAA31 /* Frameworks */,
 				1211BC1222315443003DAA31 /* Resources */,
+				9E01B372D1166FA2DE8362D2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -230,7 +307,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1211BC0E22315443003DAA31 /* LaunchScreen.storyboard in Resources */,
+				125467F82231670000E33338 /* GoogleService-Info.plist in Resources */,
 				1211BC0B22315443003DAA31 /* Assets.xcassets in Resources */,
+				1215CDAD2259377300E0AB44 /* blood.jpg in Resources */,
 				1211BC0922315441003DAA31 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +330,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7DB2CCA9BA520D8BEC3ED1CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BloodBankFinal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E01B372D1166FA2DE8362D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BloodBankFinalTests/Pods-BloodBankFinalTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BloodBankFinalTests/Pods-BloodBankFinalTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0FDEBDE33FDCBD763C02F6A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BloodBankFinal/Pods-BloodBankFinal-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BloodBankFinal/Pods-BloodBankFinal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFBC5165DD5BCC297BCCE3CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BloodBankFinalTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1211BBFC22315441003DAA31 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12CC64DE2232543000784866 /* ViewControllerSign-up.swift in Sources */,
 				1211BC0622315441003DAA31 /* ViewController.swift in Sources */,
+				12E633C42232772300382EA9 /* acceptorViewController.swift in Sources */,
+				12E633C8223277FA00382EA9 /* StaticLinker.swift in Sources */,
+				12E633BC223275E600382EA9 /* DonorTableViewController.swift in Sources */,
+				12C26B6B224179C60011E733 /* changePasswordViewController.swift in Sources */,
+				1256F5BB223AE6D50079A792 /* MyAccountTableViewController.swift in Sources */,
+				125467F6223165C500E33338 /* sign_inDetails.swift in Sources */,
+				12E633C02232765200382EA9 /* user.swift in Sources */,
 				1211BC0422315441003DAA31 /* AppDelegate.swift in Sources */,
+				12E633C22232769A00382EA9 /* profileViewController.swift in Sources */,
+				12E633C62232774700382EA9 /* acceptorTableViewController.swift in Sources */,
+				12E633BA223275C200382EA9 /* DonorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,10 +611,13 @@
 		};
 		1211BC2922315443003DAA31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C2CDA2BCB129EF0FE6AD643 /* Pods-BloodBankFinal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AV9XKDHT9P;
 				INFOPLIST_FILE = BloodBankFinal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,10 +631,13 @@
 		};
 		1211BC2A22315443003DAA31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE4662EF5D8D8BD9C281B985 /* Pods-BloodBankFinal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AV9XKDHT9P;
 				INFOPLIST_FILE = BloodBankFinal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,6 +651,7 @@
 		};
 		1211BC2C22315443003DAA31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3E23B0E2C69B91AD546C297 /* Pods-BloodBankFinalTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +672,7 @@
 		};
 		1211BC2D22315443003DAA31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 999E532EC22747565ACD8741 /* Pods-BloodBankFinalTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
