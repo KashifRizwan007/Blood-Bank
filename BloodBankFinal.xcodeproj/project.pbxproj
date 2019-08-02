@@ -15,8 +15,8 @@
 		1211BC1922315443003DAA31 /* BloodBankFinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1211BC1822315443003DAA31 /* BloodBankFinalTests.swift */; };
 		1211BC2422315443003DAA31 /* BloodBankFinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1211BC2322315443003DAA31 /* BloodBankFinalUITests.swift */; };
 		1215CDAD2259377300E0AB44 /* blood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1215CDAC2259377300E0AB44 /* blood.jpg */; };
-		125467F6223165C500E33338 /* sign_inDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125467F5223165C500E33338 /* sign_inDetails.swift */; };
-		125467F82231670000E33338 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 125467F72231670000E33338 /* GoogleService-Info.plist */; };
+		1238169322F4B7A50016A28F /* sign_inDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1238169222F4B7A50016A28F /* sign_inDetails.swift */; };
+		1238169522F4B81B0016A28F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1238169422F4B81B0016A28F /* GoogleService-Info.plist */; };
 		1256F5BB223AE6D50079A792 /* MyAccountTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1256F5BA223AE6D50079A792 /* MyAccountTableViewController.swift */; };
 		12C26B6B224179C60011E733 /* changePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C26B6A224179C60011E733 /* changePasswordViewController.swift */; };
 		12CC64DE2232543000784866 /* ViewControllerSign-up.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12CC64DD2232543000784866 /* ViewControllerSign-up.swift */; };
@@ -65,8 +65,8 @@
 		1211BC2322315443003DAA31 /* BloodBankFinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodBankFinalUITests.swift; sourceTree = "<group>"; };
 		1211BC2522315443003DAA31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1215CDAC2259377300E0AB44 /* blood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blood.jpg; sourceTree = SOURCE_ROOT; };
-		125467F5223165C500E33338 /* sign_inDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = sign_inDetails.swift; path = ../../BloodBank/BloodBank/sign_inDetails.swift; sourceTree = "<group>"; };
-		125467F72231670000E33338 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1238169222F4B7A50016A28F /* sign_inDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = sign_inDetails.swift; path = ../../../Desktop/sign_inDetails.swift; sourceTree = "<group>"; };
+		1238169422F4B81B0016A28F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1256F5BA223AE6D50079A792 /* MyAccountTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountTableViewController.swift; sourceTree = "<group>"; };
 		12C26B6A224179C60011E733 /* changePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = changePasswordViewController.swift; sourceTree = "<group>"; };
 		12CC64DD2232543000784866 /* ViewControllerSign-up.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewControllerSign-up.swift"; sourceTree = "<group>"; };
@@ -142,7 +142,7 @@
 			children = (
 				1211BC0322315441003DAA31 /* AppDelegate.swift */,
 				1211BC0522315441003DAA31 /* ViewController.swift */,
-				125467F5223165C500E33338 /* sign_inDetails.swift */,
+				1238169222F4B7A50016A28F /* sign_inDetails.swift */,
 				12CC64DD2232543000784866 /* ViewControllerSign-up.swift */,
 				12E633B9223275C200382EA9 /* DonorViewController.swift */,
 				12E633BB223275E600382EA9 /* DonorTableViewController.swift */,
@@ -155,11 +155,11 @@
 				12E633C12232769A00382EA9 /* profileViewController.swift */,
 				1256F5BA223AE6D50079A792 /* MyAccountTableViewController.swift */,
 				12C26B6A224179C60011E733 /* changePasswordViewController.swift */,
-				1215CDAC2259377300E0AB44 /* blood.jpg */,
 				1211BC0722315441003DAA31 /* Main.storyboard */,
-				1211BC0A22315443003DAA31 /* Assets.xcassets */,
 				1211BC0C22315443003DAA31 /* LaunchScreen.storyboard */,
-				125467F72231670000E33338 /* GoogleService-Info.plist */,
+				1211BC0A22315443003DAA31 /* Assets.xcassets */,
+				1215CDAC2259377300E0AB44 /* blood.jpg */,
+				1238169422F4B81B0016A28F /* GoogleService-Info.plist */,
 				1211BC0F22315443003DAA31 /* Info.plist */,
 			);
 			path = BloodBankFinal;
@@ -313,8 +313,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1211BC0E22315443003DAA31 /* LaunchScreen.storyboard in Resources */,
-				125467F82231670000E33338 /* GoogleService-Info.plist in Resources */,
 				1211BC0B22315443003DAA31 /* Assets.xcassets in Resources */,
+				1238169522F4B81B0016A28F /* GoogleService-Info.plist in Resources */,
 				1215CDAD2259377300E0AB44 /* blood.jpg in Resources */,
 				1211BC0922315441003DAA31 /* Main.storyboard in Resources */,
 			);
@@ -435,6 +435,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12CC64DE2232543000784866 /* ViewControllerSign-up.swift in Sources */,
+				1238169322F4B7A50016A28F /* sign_inDetails.swift in Sources */,
 				1211BC0622315441003DAA31 /* ViewController.swift in Sources */,
 				12E633C42232772300382EA9 /* acceptorViewController.swift in Sources */,
 				12E633C8223277FA00382EA9 /* StaticLinker.swift in Sources */,
@@ -442,7 +443,6 @@
 				12C26B6B224179C60011E733 /* changePasswordViewController.swift in Sources */,
 				1256F5BB223AE6D50079A792 /* MyAccountTableViewController.swift in Sources */,
 				12D963EF228ED18300EA9582 /* MatchTableViewCell.swift in Sources */,
-				125467F6223165C500E33338 /* sign_inDetails.swift in Sources */,
 				12D963F1228ED21400EA9582 /* MatchViewController.swift in Sources */,
 				12E633C02232765200382EA9 /* user.swift in Sources */,
 				1211BC0422315441003DAA31 /* AppDelegate.swift in Sources */,
@@ -625,7 +625,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AV9XKDHT9P;
 				INFOPLIST_FILE = BloodBankFinal/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -645,7 +645,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AV9XKDHT9P;
 				INFOPLIST_FILE = BloodBankFinal/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -45,10 +45,13 @@ class profileViewController: UIViewController {
         }
     }
     @IBAction func message(_ sender: Any) {
-        if UIApplication.shared.canOpenURL(URL(string:"sms:\(user.phone_no)&body= ")!) {
-            UIApplication.shared.open(URL(string:"sms:\(user.phone_no)&body= ")!, options: [:], completionHandler: nil)
+        if UIApplication.shared.canOpenURL(URL(string: "sms:\(user.phone_no)")!) {
+            UIApplication.shared.open(URL(string: "sms:\(user.phone_no)")!, options: [:], completionHandler: nil)
         }
     }
     @IBAction func email(_ sender: Any) {
+        if UIApplication.shared.canOpenURL(URL(string: "mailto:\(user.e_mail)")!) {
+            UIApplication.shared.open(URL(string: "mailto:\(user.e_mail)")!, options: [:], completionHandler: nil)
+        }
     }
 }
